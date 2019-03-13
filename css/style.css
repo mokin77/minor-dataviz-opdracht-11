@@ -1,0 +1,19 @@
+.rocket {
+    transform-origin: 40% 50%;
+}
+.rocket:hover {
+    transition-duration: 3s;
+    transform: rotate(360deg)
+}
+
+#moon1 {
+    visibility: hidden;
+}
+
+.rocket:hover .flames , .rocket:hover #moon1{
+    visibility: visible;
+}
+
+.flames {
+    visibility: hidden;
+}
